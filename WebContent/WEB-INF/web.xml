@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>Covid_19</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+   
+  </welcome-file-list>
+  
+    <servlet>  
+    <servlet-name>adminregister</servlet-name>  
+    <servlet-class>pack.admin_register</servlet-class>  
+     </servlet>
+     
+  <servlet-mapping>  
+    <servlet-name>adminregister</servlet-name>  
+    <url-pattern>/admin_register</url-pattern>  
+  </servlet-mapping>
+  
+  <servlet>  
+    <servlet-name>admin_login</servlet-name>  
+    <servlet-class>pack.admin_login</servlet-class>  
+   
+  </servlet>
+  <servlet-mapping>  
+    <servlet-name>admin_login</servlet-name>  
+    <url-pattern>/admin_login</url-pattern>  
+  </servlet-mapping>
+  
+  <servlet>  
+    <servlet-name>userLogin</servlet-name>  
+    <servlet-class>pack.userLogin</servlet-class>  
+   
+  </servlet>
+  <servlet-mapping>  
+    <servlet-name>userLogin</servlet-name>  
+    <url-pattern>/userLogin</url-pattern>  
+  </servlet-mapping>
+  
+  <servlet>  
+    <servlet-name>user_PlasmaDonation</servlet-name>  
+    <servlet-class>pack.user_PlasmaDonation</servlet-class>  
+   
+  </servlet>
+  <servlet-mapping>  
+    <servlet-name>user_PlasmaDonation</servlet-name>  
+    <url-pattern>/user_PlasmaDonation</url-pattern>  
+  </servlet-mapping>
+  
+   <servlet>  
+    <servlet-name>user_Essential</servlet-name>  
+    <servlet-class>pack.user_Essential</servlet-class>  
+   
+  </servlet>
+  <servlet-mapping>  
+    <servlet-name>user_Essential</servlet-name>  
+    <url-pattern>/user_Essential</url-pattern>  
+  </servlet-mapping>
+  
+   <servlet>  
+    <servlet-name>accept_plasma</servlet-name>  
+    <servlet-class>pack.accept_plasma</servlet-class>  
+   
+  </servlet>
+  <servlet-mapping>  
+    <servlet-name>accept_plasma</servlet-name>  
+    <url-pattern>/accept_plasma</url-pattern>  
+  </servlet-mapping>
+  
+  <servlet>  
+    <servlet-name>view_YourVaccineRequest</servlet-name>  
+    <servlet-class>pack.view_YourVaccineRequest</servlet-class>  
+   
+  </servlet>
+  <servlet-mapping>  
+    <servlet-name>view_YourVaccineRequest</servlet-name>  
+    <url-pattern>/view_YourVaccineRequest</url-pattern>  
+  </servlet-mapping>
+  
+  <servlet>  
+    <servlet-name>user_VaccineRegister</servlet-name>  
+    <servlet-class>pack.user_VaccineRegister</servlet-class>  
+   
+  </servlet>
+  <servlet-mapping>  
+    <servlet-name>user_VaccineRegister</servlet-name>  
+    <url-pattern>/user_VaccineRegister</url-pattern>  
+  </servlet-mapping>
+  
+   <servlet>  
+    <servlet-name>accept_VaccineRequest</servlet-name>  
+    <servlet-class>pack.accept_VaccineRequest</servlet-class>  
+   
+  </servlet>
+  <servlet-mapping>  
+    <servlet-name>accept_VaccineRequest</servlet-name>  
+    <url-pattern>/accept_VaccineRequest</url-pattern>  
+  </servlet-mapping>
+  
+  <servlet>  
+    <servlet-name>user_login</servlet-name>  
+    <servlet-class>pack.user_login</servlet-class>  
+   
+  </servlet>
+  <servlet-mapping>  
+    <servlet-name>user_login</servlet-name>  
+    <url-pattern>/user_login</url-pattern>  
+  </servlet-mapping>
+  
+  <servlet>  
+    <servlet-name>user_register</servlet-name>  
+    <servlet-class>pack.user_register</servlet-class>  
+   
+  </servlet>
+  <servlet-mapping>  
+    <servlet-name>user_register</servlet-name>  
+    <url-pattern>/user_register</url-pattern>  
+  </servlet-mapping>
+  
+   <servlet>  
+    <servlet-name>add_centers</servlet-name>  
+    <servlet-class>pack.add_centers</servlet-class>  
+   
+  </servlet>
+  <servlet-mapping>  
+    <servlet-name>add_centers</servlet-name>  
+    <url-pattern>/add_centers</url-pattern>  
+  </servlet-mapping>
+  
+  <servlet>  
+    <servlet-name>accept_PlasmaRequest</servlet-name>  
+    <servlet-class>pack.accept_PlasmaRequest</servlet-class>  
+   
+  </servlet>
+  <servlet-mapping>  
+    <servlet-name>accept_PlasmaRequest</servlet-name>  
+    <url-pattern>/accept_PlasmaRequest</url-pattern>  
+  </servlet-mapping>
+    
+    
+</web-app>
